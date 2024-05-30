@@ -74,8 +74,9 @@ How to get started using the scripts:
 
 You can modify it as desired, or move all the modules, forms, and interface sheet to your own Excel file.
 
-> [!NOTE]
-> There's a planned update to change the [implemented auth flow](https://developer.xero.com/documentation/guides/oauth2/auth-flow/) to the [PKCE flow](https://developer.xero.com/documentation/guides/oauth2/pkce-flow/) for security purposes.
+> [!WARNING]
+> The [current authentication flow](https://developer.xero.com/documentation/guides/oauth2/auth-flow/) requires a Client Secret to be provided. This might have some risks as there is no secure place to store the Client Secret inside VBA/Excel.  
+> I plan to update the implemented auth flow to the [PKCE flow](https://developer.xero.com/documentation/guides/oauth2/pkce-flow/) to address this security issue. The PKCE flow will not require a Client Secret to be provided.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
