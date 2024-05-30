@@ -69,7 +69,13 @@ How to get started using the scripts:
    - **Login**: call out the browser to have the user log in to the Xero page
    - **Generate Report**: generate Xero reports, currently capable of generating P&L reports only
    - **Clear Cache**: as the script is capable of caching (tokens and organization details), this option can clear/delete all those caches.
-4. Modify it as desired, or move all of the modules, forms, and interface sheet to your own Excel file.
+4. To start generating reports with the Xero API, you need to register for a Client ID & Secret on the [Xero website](https://developer.xero.com/app/manage/).  
+5. Once obtained, provide it through an Input Box dialog while running the program, or type it inside the private constant in the [XeroAPICall](exported_source_code/XeroAPICall.bas) module.  
+
+You can modify it as desired, or move all the modules, forms, and interface sheet to your own Excel file.
+
+> [!NOTE]
+> There's a planned update to change the [implemented auth flow](https://developer.xero.com/documentation/guides/oauth2/auth-flow/) to the [PKCE flow](https://developer.xero.com/documentation/guides/oauth2/pkce-flow/) for security purposes.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
