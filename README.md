@@ -76,7 +76,33 @@ You can modify it as desired, or move all the modules, forms, and interface shee
 
 > [!WARNING]
 > The [current authentication flow](https://developer.xero.com/documentation/guides/oauth2/auth-flow/) requires a Client Secret to be provided. This might have some risks as there is no secure place to store the Client Secret inside VBA/Excel.  
-> I plan to update the implemented auth flow to the [PKCE flow](https://developer.xero.com/documentation/guides/oauth2/pkce-flow/) to address this security issue. The PKCE flow will not require a Client Secret to be provided.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Images
+
+<figure align="center">
+  <img src="img/user_interface.jpg" height=500>
+  <figcaption align="center">
+    Main user interface
+  </p>
+  <br />
+  <img src="img/select_report.jpg" height=500>
+  <figcaption align="center">
+    Userform to select a report period
+  </p>
+  <br />
+  <img src="img/select_organization.jpg" height=500>
+  <figcaption align="center">
+    Userform to select a Xero organization
+  </p>
+  <br />
+  <br />
+  <img src="img/report_generated.jpg" height=500>
+  <figcaption align="center">
+    Generated report result; a new sheet with the requested formatted report
+  </p>
+</figure>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
