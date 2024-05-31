@@ -81,28 +81,20 @@ You can modify it as desired, or move all the modules, forms, and interface shee
 
 ## Images
 
-<figure align="center">
-  <img src="img/user_interface.jpg" height=500>
-  <figcaption align="center">
-    Main user interface
-  </p>
+<div align="center">
+  <img src="img/user_interface.jpg" height="500">
+  <p style="font-style: italic; color: grey;">Main user interface</p>
   <br />
-  <img src="img/select_report.jpg" height=500>
-  <figcaption align="center">
-    Userform to select a report period
-  </p>
+  <img src="img/select_report.jpg" height="500">
+  <p style="font-style: italic; color: grey;">Userform to select a report period</p>
   <br />
-  <img src="img/select_organization.jpg" height=500>
-  <figcaption align="center">
-    Userform to select a Xero organization
-  </p>
+  <img src="img/select_organization.jpg" height="500">
+  <p style="font-style: italic; color: grey;">Userform to select a Xero organization</p>
   <br />
   <br />
-  <img src="img/report_generated.jpg" height=500>
-  <figcaption align="center">
-    Generated report result; a new sheet with the requested formatted report
-  </p>
-</figure>
+  <img src="img/report_generated.jpg" height="500">
+  <p style="font-style: italic; color: grey;">Generated report result; a new sheet with the requested formatted report</p>
+</div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
