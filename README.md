@@ -34,6 +34,9 @@ v1.0.0 current features:
 - Caches authorized Xero organization IDs; once retrieved, they will be saved within the Excel file
 - Clears cached tokens and Xero organization IDs
 
+I have written a step-by-step guide explaining how I implemented the authentication flow for this project.  
+You can check it out in [this Medium article](https://medium.com/@musayohanes00/navigating-oauth2-authentication-in-vba-3ba524c85171)!
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Problem and Solution
