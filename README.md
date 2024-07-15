@@ -19,6 +19,9 @@
     Interacting with Xero API through VBA (Microsoft Excel)
     <br />
     <br />
+  <a href="http://www.youtube.com/watch?feature=player_embedded&v=iIuOBq_MYrw" target="_blank">
+    <img src="http://img.youtube.com/vi/iIuOBq_MYrw/0.jpg" alt="Watch the project demo video on Youtube!" width="240" height="180" border="10" />
+  </a>
 </div>
 
 ## About The Project
