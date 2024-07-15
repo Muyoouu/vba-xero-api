@@ -16,11 +16,13 @@
 <h1 align="center">vba-xero-api</h1>
 
   <p align="center">
-    Interacting with Xero API through VBA (Microsoft Excel)
+    Interacting with Xero API through VBA (Microsoft Excel) 
+  <p align="center">  
+    You can watch the project demo video on YouTube by clicking the image below:
     <br />
     <br />
   <a href="http://www.youtube.com/watch?feature=player_embedded&v=iIuOBq_MYrw" target="_blank">
-    <img src="http://img.youtube.com/vi/iIuOBq_MYrw/0.jpg" alt="Watch the project demo video on Youtube!" width="240" height="180" border="10" />
+    <img src="http://img.youtube.com/vi/iIuOBq_MYrw/0.jpg" alt="Watch the project demo video on Youtube!" width="640" height="360" border="10" />
   </a>
 </div>
 
