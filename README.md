@@ -78,9 +78,10 @@ How to get started using the scripts:
    - **Generate Report**: generate Xero reports, currently capable of generating P&L reports only
    - **Clear Cache**: as the script is capable of caching (tokens and organization details), this option can clear/delete all those caches.
 4. To start generating reports with the Xero API, you need to register for a Client ID & Secret on the [Xero website](https://developer.xero.com/app/manage/).  
-5. Once obtained, provide it through an Input Box dialog while running the program, or type it inside the private constant in the [XeroAPICall](exported_source_code/XeroAPICall.bas) module.  
+5. During registration, ensure that the `Redirect URI` you enter on the Xero page matches the one specified in the script. For a quick solution, use `https://developer.xero.com/`, which is currently set in the script. You can view or modify the `Redirect URI` through a private constant named `auth_RedirectUrl` within the [XeroAuthenticator](exported_source_code/XeroAuthenticator.cls) module.
+6. Once obtained, provide your Client ID and Secret through an Input Box dialog while running the program, or enter them directly as private constants in the [XeroAPICall](exported_source_code/XeroAPICall.bas) module. Look for the constants named `cXEROCLIENTID` and `cXEROCLIENTSECRET`.
 
-You can modify it as desired, or move all the modules, forms, and interface sheet to your own Excel file.
+You can modify the script as needed or transfer all modules, forms, and the interface sheet to your own Excel file.
 
 > [!WARNING]
 > The [current authentication flow](https://developer.xero.com/documentation/guides/oauth2/auth-flow/) requires a Client Secret to be provided. This might have some risks as there is no secure place to store the Client Secret inside VBA/Excel.  
